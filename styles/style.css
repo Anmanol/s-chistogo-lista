@@ -23,8 +23,6 @@ blockquote {
   width: 360px;
   box-sizing: border-box;
   margin: auto;
-
-  /*height: 200px;*/ /*delete*/
 }
 
 .content-section_theme_dark {
@@ -66,21 +64,91 @@ blockquote {
 }
 
 .intro {
-  padding: 40px 20px 39px;
+  padding: 40px 20px 38px;
 }
 .intro__heading {
+  display: flex;
 }
 .intro__title {
+  width: 203px;
+font-family: 'Inter'/*, 'Arial',sans-serif*/;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #CCCCCC;
 }
 .intro__date {
+font-family: 'Inter', 'Arial',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #CCCCCC;
 }
 .intro__main-text {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #F5F5F5;
 }
 
 .reasons {
   padding: 40px 20px 60px;
 }
+.content-section__subtitle {
+  margin-bottom: 32px;
+}
+.content-section__subtitle span {
+  display: block;
+}
+.reasons .accent-span {
+font-family: 'EB Garamond';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 32px;
+}
+.content-section__introduction {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 27px;
+}
+.content-section__list{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+margin-left: 16px;
+}
+.content-section__list-item{
 
+}
+.content-section__list-accent{
+font-weight: 700;
+}
 .how-to {
-  padding: 20px;
+  padding: 40px 20px 60px;
+}
+.card {
+border-radius: 30px;
+padding: 20px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #F5F5F5;
+}
+.card_theme_dark {
+  background-color: #343434;  
+}
+.card_theme_bright {
+  background-color: #FEE42A;
+color: #131313;
 }
